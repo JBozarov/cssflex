@@ -1,0 +1,53 @@
+
+
+
+.c-header {
+    margin: 5px;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+body {
+    background-image: url('./contact.jpg');
+  }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 400px;
+    height: 60vh;
+
+
+}
+
+label {
+    font-size: 30px;
+}
+
+input {
+    font-size: x-large;
+}
+
+.gender {
+    font-size: x-large;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+}
+
+
+button {
+    font-size: x-large;
+    background-color: rgb(52, 213, 52);
+    border: 2px grey solid;
+    margin-left: 10px;
+}
