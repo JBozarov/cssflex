@@ -2,14 +2,11 @@
 .header {
     margin: 5px;
     text-align: center;
-    background-color: darkgrey;
+    background-image: url('./worldmap.jpg');
     padding: 25px;
-    display: flex;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
-    align-content: center;
-    text-align: center;
 }
 
 .body {
@@ -43,4 +40,22 @@
     margin: 5px;
     border: 2px solid rgb(38, 139, 176);
     padding: 15px;
+}
+
+
+
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.copyright {
+    margin-bottom: 0;
+}
+
+.author {
+    margin-top: 2px;
 }
