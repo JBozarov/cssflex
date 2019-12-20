@@ -1,0 +1,33 @@
+
+.header {
+    margin: 5px;
+    text-align: center;
+    background-color: darkgrey;
+    padding: 15px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+
+.body {
+    background-color: rgb(220, 203, 203);
+}
+
+
+.container-1 {
+    display: flex;
+}
+
+.container-1 div {
+    background-color: rgb(142, 89, 227);
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 2px solid rgb(38, 139, 176);
+    padding: 10px;
+    justify-content: space-around;
+    font-size: large;
+}
